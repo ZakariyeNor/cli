@@ -162,7 +162,7 @@ body {
     }
 } */
 
-body {
+/* body {
     background-color: rgba(184, 184, 46, 0.726);
     height: 100vh;
     display: flex;
@@ -223,4 +223,59 @@ body {
     content: '-';
     font-size: 30px;
     transition: .5s;
+} */
+
+/* js 4 */
+
+body{
+    height: 100vh;
+    background-color: rgba(173, 216, 43, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+
+}
+
+#play {
+    background-color: green;
+}
+
+#reset {
+    background-color: red;
+}
+
+#pause{
+    background-color: orange;
 }
