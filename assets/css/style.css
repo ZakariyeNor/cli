@@ -1,6 +1,15 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+
 /* general styles */
 
 /* *{
@@ -74,13 +83,6 @@ body {
  */
 
  /* Sencod Page */
-
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
- }
 
 /*  body{
     background-color: rgba(216, 204, 191, 0.604);
@@ -227,7 +229,7 @@ body {
 
 /* js 4 */
 
-body{
+/* body{
     height: 100vh;
     background-color: rgba(173, 216, 43, 0.66);
     display: flex;
@@ -278,4 +280,50 @@ button i {
 
 #pause{
     background-color: orange;
+} */
+
+/* js-5 */
+
+body{
+    height: 100vh;
+    background-color: rgb(92, 209, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-contianer{
+    width: 350px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    
+    display: flex;
+}
+
+input{
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task {
+    flex: 1;
+    transition: .3s;
+    
+    font-size: 1.2rem;
+    padding: 5px;
+    
+    background-color: #ffff;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#add-task:hover{
+    background-color: green;
+    color: #fff;
 }
